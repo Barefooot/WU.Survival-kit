@@ -1,17 +1,17 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:vm="clr-namespace:wu_survival_kit.ViewModels;assembly=wu_survival_kit"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+
         x:Class="wu_survival_kit.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
-        Title="wu_survival_kit">
+        Title="WU-Survival-Kit"
+		Width="1280" Height="720"
+		WindowStartupLocation="CenterScreen"
+		
+		mc:Ignorable="d"
+		>
 
-    <Design.DataContext>
-        <vm:MainWindowViewModel/>
-    </Design.DataContext>
-
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
+	
+	    <TextBlock Text="{Binding Greeting, FallbackValue='Greeting'}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 </Window>

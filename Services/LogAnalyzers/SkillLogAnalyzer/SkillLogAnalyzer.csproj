@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>wu_survival_kit.Services.LogAnalyzers.SkillLogAnalyzer</AssemblyName>
+    <RootNamespace>wu_survival_kit.Services.LogAnalyzers.SkillLogAnalyzer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogAnalyzersInfra\LogAnalyzersInfra.csproj" />
+  </ItemGroup>
+
+</Project>

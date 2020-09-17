@@ -4,10 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Version>0.0.1</Version>
     <Authors>barefoot</Authors>
-    <Configurations>Debug;Release;Release-Linux</Configurations>
+    <Configurations>Debug;Release</Configurations>
+    <AssemblyName>wu-survival-kit</AssemblyName>
+    <RootNamespace>barefoot.client.wu-survival-kit</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Compile Update="**\*.xaml.cs">
       <DependentUpon>%(Filename)</DependentUpon>
     </Compile>
@@ -36,5 +37,8 @@
     <Compile Update="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>

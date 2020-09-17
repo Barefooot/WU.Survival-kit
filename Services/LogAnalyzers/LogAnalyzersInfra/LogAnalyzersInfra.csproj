@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>wu_survival_kit.Services.LogAnalyzers.LogAnalyzersInfra</AssemblyName>
+    <RootNamespace>wu_survival_kit.Services.LogAnalyzers.LogAnalyzersInfra</RootNamespace>
+  </PropertyGroup>
+
+</Project>
